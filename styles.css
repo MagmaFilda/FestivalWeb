@@ -1,0 +1,156 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(123, 209, 205);
+    margin: 0;
+}
+
+.navbar{
+    background-color: black;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    font-size: 28px;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 16px 0 16px 0;
+}
+.nav-link a{
+    text-decoration: none;
+    color: white;
+}
+.nav-link a:hover{
+    color: gray;
+}
+
+header{
+    background: url("images/festival.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.intro-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* tento příkaz posune text o 50% procent své délky */
+    text-align: center;
+    border: 3px solid #00b6b6;
+    border-radius: 16px;
+    padding: 0 50px 0 50px;
+    text-wrap: nowrap;
+    /* při zmenšení text zůstane na jednom řádku */
+}
+.intro-container h1{
+    font-size: 64px;
+}
+.intro-container p{
+    font-size: 28px;
+}
+
+.about-festival, .about-singers{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 48px;
+}
+.about-festival p{
+    font-size: 24px;
+    margin: 0;
+    padding: 32px;
+}
+
+.taylor {
+   background-color: rgb(243, 243, 243);
+    width: 700px;
+    margin: 200px auto 110px auto;
+    padding: 30px 24px;
+    border-radius: 20px;
+    position: relative;
+}
+.taylor img{
+    border-radius: 20px;
+    position: absolute;
+    right: -15%;
+    top: -25%;
+}
+
+.katy {
+    background-color: rgb(243, 243, 243);
+    width: 700px;
+    margin: 150px auto;
+    padding: 30px 24px;
+    border-radius: 20px;
+    text-align: right;
+    position: relative;
+}
+.katy img{
+    border-radius: 20px;
+    position: absolute;
+    left: -15%;
+    top: -25%;
+}
+
+.testimonials{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.testimonials h2{
+    font-size: 48px;
+    text-align: center;
+}
+.testimonial-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.testimonial-card{
+    width: 25%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 32px 16px 32px 16px;
+}
+.testimonial-card img{
+    border-radius: 50%;
+    border: 5px solid black;
+    width: 92px;
+}
+.testimonial-card p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.testimonial-card h3{
+    font-size: 24px;
+}
+.testimonial-card h4{
+    font-size: 20px;
+    color: darkgray;
+    margin-bottom: 0;
+}
+
+footer {
+    padding: 16px 0 16px 0;
+    background: black;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.social-icons .fa{
+    font-size: 32px;
+}
+.fa-facebook{
+    color: #6f6fff;
+}
+.fa-instagram{
+    color: deeppink;
+}
+.fa-youtube-play{
+    color: red;
+}
+.fa-twitter{
+    color: deepskyblue;
+}

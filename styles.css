@@ -154,3 +154,25 @@ footer {
 .fa-twitter{
     color: deepskyblue;
 }
+
+.footer-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    gap: 24px;
+    font-size: 20px;
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+}
+.footer-links a:hover{
+    color: gray;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}

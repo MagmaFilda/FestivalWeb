@@ -154,6 +154,9 @@ footer {
 .fa-twitter{
     color: deepskyblue;
 }
+.social-icons i:hover{
+    color: white;
+}
 
 .footer-links{
     list-style: none;

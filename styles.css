@@ -1,5 +1,6 @@
 *{
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body {
@@ -128,6 +129,54 @@ header{
     font-size: 20px;
     color: darkgray;
     margin-bottom: 0;
+}
+
+#contact{
+    width: 25%;
+    margin: auto;
+}
+#contact h2{
+    width: 25%;
+    margin: auto;
+}
+#contact form{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
+input[type="checkbox"]{
+    width: 20%;
+    height: 20%;
+}
+input[type="button"]{
+    width: 100%;
+    padding: 8px;
+    font-size: 22px;
+    margin: 8px 0;
+    background: black;
+    color: white;
+    border: none;
+}
+input[type="button"]:hover{
+    cursor: pointer;
+    color: black;
+    background: white;
+    transition: 0.5s;
+}
+textarea{
+    width: 100%;
+    resize: none;
+    height: 100px;
+    padding: 8px;
+    margin: 8px 0;
+}
+label{
+    font-size: 22px;
 }
 
 footer {

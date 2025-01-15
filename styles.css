@@ -228,3 +228,42 @@ footer {
     text-align: center;
     font-size: 20px;
 }
+/* Tickets */
+.tickets{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.ticket{
+    background: white;
+    padding: 16px;
+}
+.ticket-name{
+    background: black;
+    color: white;
+    width: 95%;
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 8px;
+    padding: 8px;
+}
+.buy-container button{
+    color: white;
+    background: black;
+    border-radius: 10px;
+    width: 25%;
+    height: 10%;
+}
+.ticket:hover{
+    color: white;
+    background: black;
+    transition: 0.5s;
+    .ticket-name{
+        color: black;
+        background: white;
+    }
+    .buy-container button{
+        color: black;
+        background: white;
+    }
+}

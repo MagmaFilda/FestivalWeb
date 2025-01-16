@@ -1,6 +1,7 @@
 *{
     scroll-behavior: smooth;
     box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -132,7 +133,7 @@ header{
 }
 
 #contact{
-    width: 25%;
+    width: 50%;
     margin: auto;
 }
 #contact h2{
@@ -150,7 +151,7 @@ input[type="text"], input[type="email"]{
     margin: 8px 0;
 }
 input[type="checkbox"]{
-    width: 20%;
+    width: 5%;
     height: 20%;
 }
 input[type="button"]{
@@ -229,6 +230,26 @@ footer {
     font-size: 20px;
 }
 /* Tickets */
+.intro-tickets{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.intro-tickets h1{
+    font-size: 30px;
+    margin: 20px auto 0 auto;
+    border: black solid 2px;
+    width: 10%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.intro-tickets h2{
+    font-size: 40px;
+}
+.text-above-tickets{
+    position: relative;
+    left: 17.5%;
+}
 .tickets{
     display: flex;
     justify-content: center;
@@ -237,6 +258,9 @@ footer {
 .ticket{
     background: white;
     padding: 16px;
+    height: 500px;
+    width: 400px;
+    margin-bottom: 30px;
 }
 .ticket-name{
     background: black;
@@ -246,13 +270,17 @@ footer {
     font-size: 50px;
     border-radius: 8px;
     padding: 8px;
+    text-align: center;
+}
+.ticket h3{
+    font-size: 20px;
 }
 .buy-container button{
     color: white;
     background: black;
     border-radius: 10px;
-    width: 25%;
-    height: 10%;
+    width: 30%;
+    height: 30px;
 }
 .ticket:hover{
     color: white;

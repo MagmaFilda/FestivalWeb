@@ -296,6 +296,21 @@ footer {
     }
 }
 /*Merch*/
+.merch-intro{
+    text-align: center;
+}
+.merch-intro h1{
+    font-size: 40px;
+}
+.merch-intro h2{
+    font-size: 30px;
+    margin: 20px auto 20px auto;
+    border: black solid 2px;
+    width: 15%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
 .merch-pictures{
     display: flex;
     flex-wrap: wrap;
@@ -320,4 +335,10 @@ footer {
 }
 .mikina-epic:hover{
     content: url("images/mikina-herdyn-epic-nahled.webp");
+}
+.merch-picture h2{
+    font-size: 25px;
+}
+.merch-picture h3{
+    font-size: 30px;
 }

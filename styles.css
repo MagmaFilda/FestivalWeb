@@ -295,3 +295,29 @@ footer {
         background: white;
     }
 }
+/*Merch*/
+.merch-pictures{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.merch-picture{
+    flex: 1 0 30%;
+    margin: auto;
+}
+.merch-picture img{
+    width: 75%;
+    height: 75%
+}
+.tricko-basic:hover{
+    content: url("images/tricko-herdyn-brand-nahled.webp");
+}
+.mikina-basic:hover{
+    content: url("images/mikina-herdyn-brand-nahled.webp");
+}
+.tricko-epic:hover{
+    content: url("images/tricko-herdyn-epic-nahled.webp");
+}
+.mikina-epic:hover{
+    content: url("images/mikina-herdyn-epic-nahled.webp");
+}
